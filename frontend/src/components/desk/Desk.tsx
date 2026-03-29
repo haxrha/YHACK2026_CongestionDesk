@@ -9,6 +9,8 @@ import { LiveSignalPanel } from "./LiveSignalPanel";
 import { BacktestTable } from "./BacktestTable";
 import { MockReturns2026 } from "./MockReturns2026";
 import { MacroOutlookDashboard } from "./MacroOutlookDashboard";
+import { MarketConditionsSummary } from "./MarketConditionsSummary";
+import { PortShippingInsight } from "./PortShippingInsight";
 import { cn } from "@/lib/cn";
 
 type TankersPayload = {
@@ -111,6 +113,8 @@ function Hero({ selectedDate, onDateChange, rows, selectedRow }: {
           Real backtest CSV, live-feeling AIS map, and a mock ticket — built
           with layered light, depth, and precision.
         </p>
+
+        <MarketConditionsSummary />
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <label htmlFor="desk-date" className="sr-only">
@@ -320,7 +324,7 @@ export function Desk() {
           {deskTab === "overview" && (
             <>
               <div className="grid gap-8 lg:grid-cols-6 lg:gap-10">
-                <div className="lg:col-span-4">
+                <div className="flex flex-col gap-6 lg:col-span-4">
                   <PortMap
                     vessels={mapVessels}
                     ports={mapPorts}
@@ -331,6 +335,7 @@ export function Desk() {
                     loading={mapBusy}
                     liveMode={useLiveMap}
                   />
+                  <PortShippingInsight />
                 </div>
                 <div className="flex flex-col gap-8 lg:col-span-2">
                   <LiveSignalPanel />
