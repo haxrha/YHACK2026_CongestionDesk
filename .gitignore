@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.env
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# Large AIS / research data (keep locally; exceeds GitHub 100MB limit)
+Backend/ais_tankers/
+Backend/*.parquet
+Backend/*.zip
+*.parquet
+*.zip
+
+# OS / local
+.DS_Store
+/vessel_cache.json

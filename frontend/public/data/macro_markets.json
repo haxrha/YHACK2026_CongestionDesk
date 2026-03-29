@@ -1,0 +1,55 @@
+{
+  "modelId": "2018-ais-macro-blend",
+  "modelNote": "Demo blend: coefficients loosely inspired by 2018 tanker–macro joint patterns; not a production forecast.",
+  "blend": {
+    "maxDeltaYes": 0.14,
+    "description": "Composite z = Σ wᵢ · sᵢ · (2pᵢ−1), then next-day YES ≈ clamp(base + z · maxDelta, 0.02, 0.98)."
+  },
+  "markets": [
+    {
+      "id": "wti_april_2026",
+      "question": "What will WTI Crude Oil (WTI) hit in April 2026?",
+      "tokenId": "",
+      "mockYes": 0.46,
+      "weight": 0.24,
+      "direction": 1,
+      "hint": "Upper-bin YES mass → stronger expected crude path (+oil beta)."
+    },
+    {
+      "id": "iran_ceasefire",
+      "question": "US × Iran ceasefire by the published deadline?",
+      "tokenId": "",
+      "mockYes": 0.38,
+      "weight": 0.2,
+      "direction": -1,
+      "hint": "Ceasefire → lower geopolitical risk premium (−oil beta)."
+    },
+    {
+      "id": "cpi_3pct",
+      "question": "Will CPI exceed 3.0% (inflation surprise)?",
+      "tokenId": "",
+      "mockYes": 0.52,
+      "weight": 0.18,
+      "direction": 1,
+      "hint": "Sticky inflation ↔ energy costs; high inflation often tracks energy (+oil beta)."
+    },
+    {
+      "id": "ceasefire_before_120",
+      "question": "US × Iran ceasefire before WTI hits $120?",
+      "tokenId": "",
+      "mockYes": 0.41,
+      "weight": 0.18,
+      "direction": -1,
+      "hint": "YES → ceasefire resolves first, oil not yet at stress price (−oil beta)."
+    },
+    {
+      "id": "strait_hormuz_ships",
+      "question": "Will 45 or fewer ships transit the Strait of Hormuz this week?",
+      "tokenId": "",
+      "mockYes": 0.47,
+      "weight": 0.2,
+      "direction": 1,
+      "hint": "Fewer transits → congestion / risk proxy (+oil beta)."
+    }
+  ]
+}

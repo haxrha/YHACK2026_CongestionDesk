@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-deep: #020203;
+  --color-bg-base: #050506;
+  --color-bg-elevated: #0a0a0c;
+  --color-surface: rgba(255, 255, 255, 0.05);
+  --color-surface-hover: rgba(255, 255, 255, 0.08);
+  --color-fg: #ededef;
+  --color-fg-muted: #8a8f98;
+  --color-fg-subtle: rgba(255, 255, 255, 0.6);
+  --color-accent: #5e6ad2;
+  --color-accent-bright: #6872d9;
+  --color-accent-glow: rgba(94, 106, 210, 0.3);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border-hover: rgba(255, 255, 255, 0.1);
+  --color-border-accent: rgba(94, 106, 210, 0.3);
+  --shadow-card:
+    0 0 0 1px rgba(255, 255, 255, 0.06), 0 2px 20px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(0, 0, 0, 0.2);
+  --shadow-card-hover:
+    0 0 0 1px rgba(255, 255, 255, 0.1), 0 8px 40px rgba(0, 0, 0, 0.5),
+    0 0 80px rgba(94, 106, 210, 0.1);
+  --shadow-accent:
+    0 0 0 1px rgba(94, 106, 210, 0.5), 0 4px 12px rgba(94, 106, 210, 0.3),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+  --noise-opacity: 0.015;
+  --grid-opacity: 0.02;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply min-h-screen bg-background-base text-foreground antialiased;
+  }
+}
+
+/* Subtle film grain — prevents banding on gradients */
+.ds-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: var(--noise-opacity);
+}
+
+.ds-grid {
+  background-size: 64px 64px;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, var(--grid-opacity)) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, var(--grid-opacity)) 1px,
+      transparent 1px
+    );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Leaflet z-index below modals, above background */
+.leaflet-container {
+  font-family: inherit;
+  border-radius: 1rem;
+  background: var(--color-bg-elevated) !important;
+}
+
+.leaflet-control-attribution {
+  @apply rounded-md bg-black/40 text-[10px] text-foreground-muted backdrop-blur-sm;
+}

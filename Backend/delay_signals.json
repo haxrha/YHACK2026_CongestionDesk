@@ -1,0 +1,4486 @@
+[
+  {
+    "date": "2024-01-01",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.0,
+        "sog": 0.66,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.0,
+        "sog": 0.9444444444444444,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.0,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.5,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.792,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-02",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.02,
+        "sog": 0.66,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5666666666666667,
+        "throughput": 0.0,
+        "sog": 0.6470588235294118,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4722222222222222,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.29411764705882354,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 10
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.458,
+    "agg_throughput": 0.005,
+    "agg_sog": 0.777,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-03",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.52,
+        "throughput": 0.038461538461538464,
+        "sog": 0.5961538461538461,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4375,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5428571428571428,
+        "throughput": 0.05263157894736842,
+        "sog": 0.8947368421052632,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.25925925925925924,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 7
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.44,
+    "agg_throughput": 0.076,
+    "agg_sog": 0.801,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-04",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5032894736842105,
+        "throughput": 0.0,
+        "sog": 0.7450980392156863,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4891304347826087,
+        "throughput": 0.2,
+        "sog": 0.9333333333333333,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6388888888888888,
+        "throughput": 0.13043478260869565,
+        "sog": 0.9130434782608695,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4852941176470588,
+        "throughput": 0.36363636363636365,
+        "sog": 0.6363636363636364,
+        "vessel_count": 11
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.529,
+    "agg_throughput": 0.174,
+    "agg_sog": 0.807,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-05",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.49261083743842365,
+        "throughput": 0.0,
+        "sog": 0.68,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4918032786885246,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6753246753246753,
+        "throughput": 0.07692307692307693,
+        "sog": 0.8846153846153846,
+        "vessel_count": 26
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6222222222222222,
+        "throughput": 0.2857142857142857,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.57,
+    "agg_throughput": 0.091,
+    "agg_sog": 0.805,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-06",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4644268774703557,
+        "throughput": 0.10638297872340426,
+        "sog": 0.7872340425531915,
+        "vessel_count": 47
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3618421052631579,
+        "throughput": 0.0,
+        "sog": 0.8181818181818182,
+        "vessel_count": 11
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6067961165048543,
+        "throughput": 0.0,
+        "sog": 0.96,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.8050847457627118,
+        "throughput": 0.0,
+        "sog": 0.631578947368421,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.56,
+    "agg_throughput": 0.027,
+    "agg_sog": 0.799,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-07",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.53,
+        "throughput": 0.0,
+        "sog": 0.6415094339622641,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3793103448275862,
+        "throughput": 0.0,
+        "sog": 0.7272727272727273,
+        "vessel_count": 11
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5390625,
+        "throughput": 0.0,
+        "sog": 0.9130434782608695,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6153846153846154,
+        "throughput": 0.1875,
+        "sog": 0.75,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.516,
+    "agg_throughput": 0.047,
+    "agg_sog": 0.758,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-08",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4263456090651558,
+        "throughput": 0.0,
+        "sog": 0.8837209302325582,
+        "vessel_count": 43
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.21428571428571427,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6026490066225165,
+        "throughput": 0.07692307692307693,
+        "sog": 0.9230769230769231,
+        "vessel_count": 26
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6702127659574468,
+        "throughput": 0.0,
+        "sog": 0.6111111111111112,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.55,
+    "agg_throughput": 0.073,
+    "agg_sog": 0.819,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-09",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.46464646464646464,
+        "throughput": 0.021739130434782608,
+        "sog": 0.6521739130434783,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5714285714285714,
+        "throughput": 0.125,
+        "sog": 0.875,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4519774011299435,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6428571428571429,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.533,
+    "agg_throughput": 0.037,
+    "agg_sog": 0.798,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-10",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4785067873303167,
+        "throughput": 0.0425531914893617,
+        "sog": 0.7659574468085106,
+        "vessel_count": 47
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3515625,
+        "throughput": 0.0,
+        "sog": 0.7,
+        "vessel_count": 10
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.41116751269035534,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6230769230769231,
+        "throughput": 0.16666666666666666,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.466,
+    "agg_throughput": 0.052,
+    "agg_sog": 0.728,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-11",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.48057259713701433,
+        "throughput": 0.0425531914893617,
+        "sog": 0.7659574468085106,
+        "vessel_count": 47
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5434782608695652,
+        "throughput": 0.26666666666666666,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3953488372093023,
+        "throughput": 0.29411764705882354,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6756756756756757,
+        "throughput": 0.1,
+        "sog": 0.7,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.524,
+    "agg_throughput": 0.176,
+    "agg_sog": 0.741,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-12",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.47201492537313433,
+        "throughput": 0.0,
+        "sog": 0.717391304347826,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6470588235294118,
+        "throughput": 0.2222222222222222,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4978448275862069,
+        "throughput": 0.047619047619047616,
+        "sog": 0.9523809523809523,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.7202380952380952,
+        "throughput": 0.0,
+        "sog": 0.8636363636363636,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.584,
+    "agg_throughput": 0.067,
+    "agg_sog": 0.828,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-13",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4845360824742268,
+        "throughput": 0.0,
+        "sog": 0.7021276595744681,
+        "vessel_count": 47
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6666666666666666,
+        "throughput": 0.15789473684210525,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4031620553359684,
+        "throughput": 0.0,
+        "sog": 0.9411764705882353,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6947368421052631,
+        "throughput": 0.18181818181818182,
+        "sog": 0.7727272727272727,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.562,
+    "agg_throughput": 0.085,
+    "agg_sog": 0.788,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-14",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4753577106518283,
+        "throughput": 0.0,
+        "sog": 0.7608695652173914,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5473684210526316,
+        "throughput": 0.0,
+        "sog": 0.875,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3851851851851852,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.7358490566037736,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 24
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.536,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.805,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-15",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5185185185185185,
+        "throughput": 0.12,
+        "sog": 0.6,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5776699029126214,
+        "throughput": 0.058823529411764705,
+        "sog": 0.8235294117647058,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4405594405594406,
+        "throughput": 0.05555555555555555,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5338983050847458,
+        "throughput": 0.0,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.518,
+    "agg_throughput": 0.059,
+    "agg_sog": 0.8,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-16",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.46551724137931033,
+        "throughput": 0.0,
+        "sog": 0.8222222222222222,
+        "vessel_count": 45
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6390134529147982,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.493421052631579,
+        "throughput": 0.25,
+        "sog": 0.95,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.7086614173228346,
+        "throughput": 0.08333333333333333,
+        "sog": 0.75,
+        "vessel_count": 24
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.577,
+    "agg_throughput": 0.083,
+    "agg_sog": 0.815,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-17",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.509090909090909,
+        "throughput": 0.08163265306122448,
+        "sog": 0.8163265306122449,
+        "vessel_count": 49
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5619834710743802,
+        "throughput": 0.0,
+        "sog": 0.6470588235294118,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6419753086419753,
+        "throughput": 0.07692307692307693,
+        "sog": 0.8846153846153846,
+        "vessel_count": 26
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6618705035971223,
+        "throughput": 0.0,
+        "sog": 0.7391304347826086,
+        "vessel_count": 23
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.594,
+    "agg_throughput": 0.04,
+    "agg_sog": 0.772,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-18",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.6123321123321123,
+        "throughput": 0.0,
+        "sog": 0.6779661016949152,
+        "vessel_count": 59
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4594594594594595,
+        "throughput": 0.21428571428571427,
+        "sog": 0.9285714285714286,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5828571428571429,
+        "throughput": 0.0,
+        "sog": 0.875,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42358803986710963,
+        "throughput": 0.0,
+        "sog": 0.9333333333333333,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.52,
+    "agg_throughput": 0.054,
+    "agg_sog": 0.854,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-19",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5535307517084282,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4945054945054945,
+        "throughput": 0.13333333333333333,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.553475935828877,
+        "throughput": 0.0,
+        "sog": 0.9130434782608695,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5411392405063291,
+        "throughput": 0.15789473684210525,
+        "sog": 0.631578947368421,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.536,
+    "agg_throughput": 0.073,
+    "agg_sog": 0.736,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-20",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5300429184549356,
+        "throughput": 0.15384615384615385,
+        "sog": 0.5961538461538461,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5277777777777778,
+        "throughput": 0.0,
+        "sog": 0.5625,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5025188916876574,
+        "throughput": 0.047619047619047616,
+        "sog": 0.9047619047619048,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6238805970149254,
+        "throughput": 0.13636363636363635,
+        "sog": 0.8181818181818182,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.546,
+    "agg_throughput": 0.084,
+    "agg_sog": 0.72,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-21",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5284552845528455,
+        "throughput": 0.0,
+        "sog": 0.7115384615384616,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.46052631578947373,
+        "throughput": 0.0,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.47846889952153115,
+        "throughput": 0.0,
+        "sog": 0.85,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5042016806722689,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.493,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.819,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-22",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5675675675675675,
+        "throughput": 0.017857142857142856,
+        "sog": 0.75,
+        "vessel_count": 56
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.49528301886792453,
+        "throughput": 0.0,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4315068493150685,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.616,
+        "throughput": 0.0,
+        "sog": 0.8636363636363636,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.528,
+    "agg_throughput": 0.004,
+    "agg_sog": 0.795,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-23",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.42307692307692313,
+        "throughput": 0.0,
+        "sog": 0.9285714285714286,
+        "vessel_count": 42
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5285285285285285,
+        "throughput": 0.25,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.45833333333333337,
+        "throughput": 0.10526315789473684,
+        "sog": 0.8947368421052632,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.3879093198992443,
+        "throughput": 0.0,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.449,
+    "agg_throughput": 0.089,
+    "agg_sog": 0.838,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-24",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.3650793650793651,
+        "throughput": 0.0,
+        "sog": 0.9722222222222222,
+        "vessel_count": 36
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5601719197707736,
+        "throughput": 0.0,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.43578947368421056,
+        "throughput": 0.0,
+        "sog": 0.9444444444444444,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4197080291970803,
+        "throughput": 0.2,
+        "sog": 0.5333333333333333,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.445,
+    "agg_throughput": 0.05,
+    "agg_sog": 0.804,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-25",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4717948717948718,
+        "throughput": 0.34782608695652173,
+        "sog": 0.7391304347826086,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45901639344262296,
+        "throughput": 0.07142857142857142,
+        "sog": 0.9285714285714286,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3894523326572008,
+        "throughput": 0.0625,
+        "sog": 0.9375,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4788732394366197,
+        "throughput": 0.29411764705882354,
+        "sog": 0.8235294117647058,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.45,
+    "agg_throughput": 0.194,
+    "agg_sog": 0.857,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-26",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4317434210526316,
+        "throughput": 0.0,
+        "sog": 0.9761904761904762,
+        "vessel_count": 42
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5592105263157895,
+        "throughput": 0.23529411764705882,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.39292730844793716,
+        "throughput": 0.0,
+        "sog": 0.9375,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5643340857787811,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.487,
+    "agg_throughput": 0.059,
+    "agg_sog": 0.855,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-27",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.527027027027027,
+        "throughput": 0.0,
+        "sog": 0.5294117647058824,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5894206549118387,
+        "throughput": 0.0,
+        "sog": 0.7222222222222222,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4457142857142857,
+        "throughput": 0.16666666666666666,
+        "sog": 0.9444444444444444,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5053995680345572,
+        "throughput": 0.05555555555555555,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.517,
+    "agg_throughput": 0.056,
+    "agg_sog": 0.757,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-28",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4744079449961803,
+        "throughput": 0.06521739130434782,
+        "sog": 0.6086956521739131,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.42289156626506025,
+        "throughput": 0.07692307692307693,
+        "sog": 0.7692307692307693,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5469613259668509,
+        "throughput": 0.045454545454545456,
+        "sog": 1.0,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.39293139293139295,
+        "throughput": 0.0,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.459,
+    "agg_throughput": 0.047,
+    "agg_sog": 0.773,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-29",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5579335793357934,
+        "throughput": 0.2037037037037037,
+        "sog": 0.7592592592592593,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45794392523364486,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5451327433628319,
+        "throughput": 0.0,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.395959595959596,
+        "throughput": 0.07142857142857142,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.489,
+    "agg_throughput": 0.122,
+    "agg_sog": 0.792,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-30",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.6894960965223563,
+        "throughput": 0.0,
+        "sog": 0.5671641791044776,
+        "vessel_count": 67
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5576923076923077,
+        "throughput": 0.0,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.469335604770017,
+        "throughput": 0.0,
+        "sog": 0.9473684210526315,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.45579567779960706,
+        "throughput": 0.125,
+        "sog": 0.75,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.543,
+    "agg_throughput": 0.031,
+    "agg_sog": 0.757,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-01-31",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5792682926829268,
+        "throughput": 0.0,
+        "sog": 0.7894736842105263,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5228758169934641,
+        "throughput": 0.0,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4702970297029703,
+        "throughput": 0.21052631578947367,
+        "sog": 0.8947368421052632,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4857142857142857,
+        "throughput": 0.0,
+        "sog": 0.8235294117647058,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.515,
+    "agg_throughput": 0.053,
+    "agg_sog": 0.83,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-01",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.6068779501011463,
+        "throughput": 0.016666666666666666,
+        "sog": 0.7166666666666667,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4891304347826087,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5189456342668863,
+        "throughput": 0.0,
+        "sog": 0.7142857142857143,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42857142857142855,
+        "throughput": 0.0,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.511,
+    "agg_throughput": 0.004,
+    "agg_sog": 0.741,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-02",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5425318151373074,
+        "throughput": 0.0,
+        "sog": 0.6851851851851852,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6550218340611353,
+        "throughput": 0.1,
+        "sog": 0.75,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.36824877250409166,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.33962264150943394,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 12
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.476,
+    "agg_throughput": 0.025,
+    "agg_sog": 0.784,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-03",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.491638795986622,
+        "throughput": 0.02040816326530612,
+        "sog": 0.7755102040816326,
+        "vessel_count": 49
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.646551724137931,
+        "throughput": 0.1,
+        "sog": 0.65,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.39538714991762763,
+        "throughput": 0.0,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.36448598130841126,
+        "throughput": 0.15384615384615385,
+        "sog": 0.7692307692307693,
+        "vessel_count": 13
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.475,
+    "agg_throughput": 0.069,
+    "agg_sog": 0.752,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-04",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5525787006028131,
+        "throughput": 0.12727272727272726,
+        "sog": 0.6727272727272727,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.511727078891258,
+        "throughput": 0.0,
+        "sog": 0.875,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.35,
+        "throughput": 0.0,
+        "sog": 0.9285714285714286,
+        "vessel_count": 14
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5307262569832403,
+        "throughput": 0.3157894736842105,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.486,
+    "agg_throughput": 0.111,
+    "agg_sog": 0.83,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-05",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5006675567423231,
+        "throughput": 0.0,
+        "sog": 0.72,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6063829787234043,
+        "throughput": 0.0,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5357142857142857,
+        "throughput": 0.38095238095238093,
+        "sog": 0.9047619047619048,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5535055350553506,
+        "throughput": 0.0,
+        "sog": 0.85,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.549,
+    "agg_throughput": 0.095,
+    "agg_sog": 0.829,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-06",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.519653564290473,
+        "throughput": 0.057692307692307696,
+        "sog": 0.7307692307692307,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6276150627615062,
+        "throughput": 0.15,
+        "sog": 0.85,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5907534246575343,
+        "throughput": 0.13043478260869565,
+        "sog": 0.8260869565217391,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6077348066298343,
+        "throughput": 0.0,
+        "sog": 0.7272727272727273,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.586,
+    "agg_throughput": 0.085,
+    "agg_sog": 0.784,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-07",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.62,
+        "throughput": 0.11290322580645161,
+        "sog": 0.5967741935483871,
+        "vessel_count": 62
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5544147843942505,
+        "throughput": 0.05555555555555555,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.565068493150685,
+        "throughput": 0.0,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4918032786885246,
+        "throughput": 0.05555555555555555,
+        "sog": 0.7222222222222222,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.558,
+    "agg_throughput": 0.056,
+    "agg_sog": 0.779,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-08",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.6221198156682027,
+        "throughput": 0.0,
+        "sog": 0.6825396825396826,
+        "vessel_count": 63
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5193482688391039,
+        "throughput": 0.17647058823529413,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5172413793103449,
+        "throughput": 0.0,
+        "sog": 0.9,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4918032786885246,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.538,
+    "agg_throughput": 0.044,
+    "agg_sog": 0.825,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-09",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.6640625,
+        "throughput": 0.04411764705882353,
+        "sog": 0.6323529411764706,
+        "vessel_count": 68
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.48780487804878053,
+        "throughput": 0.0,
+        "sog": 0.9375,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4655172413793104,
+        "throughput": 0.1111111111111111,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5464480874316939,
+        "throughput": 0.05,
+        "sog": 0.75,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.541,
+    "agg_throughput": 0.051,
+    "agg_sog": 0.802,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-10",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.626204238921002,
+        "throughput": 0.03076923076923077,
+        "sog": 0.7076923076923077,
+        "vessel_count": 65
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.36144578313253006,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 12
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4913793103448276,
+        "throughput": 0.05263157894736842,
+        "sog": 0.7894736842105263,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5716878402903811,
+        "throughput": 0.09523809523809523,
+        "sog": 0.7142857142857143,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.513,
+    "agg_throughput": 0.045,
+    "agg_sog": 0.761,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-11",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5333333333333333,
+        "throughput": 0.0,
+        "sog": 0.9107142857142857,
+        "vessel_count": 56
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45454545454545453,
+        "throughput": 0.06666666666666667,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6185567010309279,
+        "throughput": 0.2916666666666667,
+        "sog": 0.9583333333333334,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5434782608695653,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.537,
+    "agg_throughput": 0.09,
+    "agg_sog": 0.871,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-12",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5962145110410094,
+        "throughput": 0.0,
+        "sog": 0.6031746031746031,
+        "vessel_count": 63
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5792682926829269,
+        "throughput": 0.10526315789473684,
+        "sog": 0.631578947368421,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6410256410256411,
+        "throughput": 0.0,
+        "sog": 0.92,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5454545454545455,
+        "throughput": 0.0,
+        "sog": 0.7,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.59,
+    "agg_throughput": 0.026,
+    "agg_sog": 0.714,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-13",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5621486570893192,
+        "throughput": 0.0,
+        "sog": 0.7666666666666667,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.48780487804878053,
+        "throughput": 0.0,
+        "sog": 0.625,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5564924114671164,
+        "throughput": 0.0,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4653284671532847,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.518,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.796,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-14",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5572755417956656,
+        "throughput": 0.05,
+        "sog": 0.6666666666666666,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5182926829268293,
+        "throughput": 0.35294117647058826,
+        "sog": 0.5882352941176471,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5509181969949917,
+        "throughput": 0.0,
+        "sog": 0.8181818181818182,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5822550831792975,
+        "throughput": 0.09523809523809523,
+        "sog": 0.6666666666666666,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.552,
+    "agg_throughput": 0.125,
+    "agg_sog": 0.685,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-15",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5538461538461539,
+        "throughput": 0.0,
+        "sog": 0.6833333333333333,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6097560975609757,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5970149253731343,
+        "throughput": 0.08333333333333333,
+        "sog": 0.7083333333333334,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4963235294117647,
+        "throughput": 0.16666666666666666,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.564,
+    "agg_throughput": 0.062,
+    "agg_sog": 0.742,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-16",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5304878048780488,
+        "throughput": 0.0,
+        "sog": 0.7068965517241379,
+        "vessel_count": 58
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4563894523326572,
+        "throughput": 0.2,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.543657331136738,
+        "throughput": 0.13636363636363635,
+        "sog": 0.8181818181818182,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6412639405204461,
+        "throughput": 0.043478260869565216,
+        "sog": 0.7391304347826086,
+        "vessel_count": 23
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.543,
+    "agg_throughput": 0.095,
+    "agg_sog": 0.783,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-17",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5184960582171012,
+        "throughput": 0.0,
+        "sog": 0.6842105263157895,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5193482688391039,
+        "throughput": 0.0,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5970149253731343,
+        "throughput": 0.041666666666666664,
+        "sog": 0.875,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4739776951672862,
+        "throughput": 0.0,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.527,
+    "agg_throughput": 0.01,
+    "agg_sog": 0.757,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-18",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5191256830601093,
+        "throughput": 0.07017543859649122,
+        "sog": 0.5789473684210527,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45546558704453444,
+        "throughput": 0.2,
+        "sog": 0.8,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.572139303482587,
+        "throughput": 0.0,
+        "sog": 0.782608695652174,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4444444444444444,
+        "throughput": 0.1875,
+        "sog": 0.875,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.498,
+    "agg_throughput": 0.114,
+    "agg_sog": 0.759,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-19",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4818181818181818,
+        "throughput": 0.0,
+        "sog": 0.6226415094339622,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6983805668016195,
+        "throughput": 0.0,
+        "sog": 0.6086956521739131,
+        "vessel_count": 23
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.49751243781094523,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5027932960893855,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.545,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.725,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-20",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4179285281647486,
+        "throughput": 0.043478260869565216,
+        "sog": 0.7608695652173914,
+        "vessel_count": 46
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5089820359281437,
+        "throughput": 0.058823529411764705,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5232558139534884,
+        "throughput": 0.14285714285714285,
+        "sog": 0.7619047619047619,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5065666041275798,
+        "throughput": 0.16666666666666666,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.489,
+    "agg_throughput": 0.103,
+    "agg_sog": 0.794,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-21",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5106382978723404,
+        "throughput": 0.08928571428571429,
+        "sog": 0.5892857142857143,
+        "vessel_count": 56
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5654761904761905,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.572139303482587,
+        "throughput": 0.043478260869565216,
+        "sog": 0.9565217391304348,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5065666041275798,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.539,
+    "agg_throughput": 0.033,
+    "agg_sog": 0.779,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-22",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5106382978723404,
+        "throughput": 0.03571428571428571,
+        "sog": 0.6964285714285714,
+        "vessel_count": 56
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.41338582677165353,
+        "throughput": 0.14285714285714285,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5427631578947368,
+        "throughput": 0.0,
+        "sog": 0.8636363636363636,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42533081285444235,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.473,
+    "agg_throughput": 0.045,
+    "agg_sog": 0.821,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-23",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.515370705244123,
+        "throughput": 0.0,
+        "sog": 0.631578947368421,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3557312252964427,
+        "throughput": 0.08333333333333333,
+        "sog": 0.75,
+        "vessel_count": 12
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5400981996726677,
+        "throughput": 0.13636363636363635,
+        "sog": 1.0,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.45283018867924524,
+        "throughput": 0.0,
+        "sog": 0.625,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.466,
+    "agg_throughput": 0.055,
+    "agg_sog": 0.752,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-24",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.44642857142857145,
+        "throughput": 0.0,
+        "sog": 0.78,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.38922155688622756,
+        "throughput": 0.0,
+        "sog": 0.7692307692307693,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5853658536585366,
+        "throughput": 0.0,
+        "sog": 0.9166666666666666,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42372881355932207,
+        "throughput": 0.06666666666666667,
+        "sog": 1.0,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.461,
+    "agg_throughput": 0.017,
+    "agg_sog": 0.866,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-25",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.48990498812351546,
+        "throughput": 0.01818181818181818,
+        "sog": 0.6727272727272727,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.42,
+        "throughput": 0.07142857142857142,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5296950240770466,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6238185255198488,
+        "throughput": 0.09090909090909091,
+        "sog": 0.6363636363636364,
+        "vessel_count": 22
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.516,
+    "agg_throughput": 0.045,
+    "agg_sog": 0.756,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-26",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.47731290512669416,
+        "throughput": 0.0,
+        "sog": 0.5925925925925926,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3319919517102616,
+        "throughput": 0.18181818181818182,
+        "sog": 0.6363636363636364,
+        "vessel_count": 11
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.47694753577106525,
+        "throughput": 0.0,
+        "sog": 0.95,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.3672316384180791,
+        "throughput": 0.0,
+        "sog": 0.9230769230769231,
+        "vessel_count": 13
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.413,
+    "agg_throughput": 0.045,
+    "agg_sog": 0.776,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-27",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.47647058823529415,
+        "throughput": 0.1111111111111111,
+        "sog": 0.6851851851851852,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.489795918367347,
+        "throughput": 0.3125,
+        "sog": 1.0,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5229793977812995,
+        "throughput": 0.09090909090909091,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4277566539923954,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.479,
+    "agg_throughput": 0.129,
+    "agg_sog": 0.849,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-28",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.509367681498829,
+        "throughput": 0.0,
+        "sog": 0.6551724137931034,
+        "vessel_count": 58
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5780933062880325,
+        "throughput": 0.21052631578947367,
+        "sog": 0.9473684210526315,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5467511885895404,
+        "throughput": 0.0,
+        "sog": 0.8695652173913043,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4554079696394687,
+        "throughput": 0.1875,
+        "sog": 0.625,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.522,
+    "agg_throughput": 0.1,
+    "agg_sog": 0.774,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-02-29",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5081775700934579,
+        "throughput": 0.0,
+        "sog": 0.6896551724137931,
+        "vessel_count": 58
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.48192771084337344,
+        "throughput": 0.0,
+        "sog": 0.9375,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4746835443037975,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5103969754253308,
+        "throughput": 0.16666666666666666,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.494,
+    "agg_throughput": 0.042,
+    "agg_sog": 0.801,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-01",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5196711685261304,
+        "throughput": 0.01694915254237288,
+        "sog": 0.6610169491525424,
+        "vessel_count": 59
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45271629778672035,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4739336492890995,
+        "throughput": 0.0,
+        "sog": 0.95,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42372881355932207,
+        "throughput": 0.0,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.468,
+    "agg_throughput": 0.004,
+    "agg_sog": 0.803,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-02",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4574780058651026,
+        "throughput": 0.0,
+        "sog": 0.7115384615384616,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.39314516129032256,
+        "throughput": 0.07692307692307693,
+        "sog": 0.7692307692307693,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.47318611987381703,
+        "throughput": 0.1,
+        "sog": 0.95,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42533081285444235,
+        "throughput": 0.13333333333333333,
+        "sog": 0.7333333333333333,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.437,
+    "agg_throughput": 0.078,
+    "agg_sog": 0.791,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-03",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.37124337065409546,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 42
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4858299595141701,
+        "throughput": 0.125,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4739336492890995,
+        "throughput": 0.0,
+        "sog": 0.9,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.45368620037807184,
+        "throughput": 0.3125,
+        "sog": 0.8125,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.446,
+    "agg_throughput": 0.109,
+    "agg_sog": 0.84,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-04",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.2403560830860534,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 27
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6734693877551021,
+        "throughput": 0.2727272727272727,
+        "sog": 0.7727272727272727,
+        "vessel_count": 22
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.493730407523511,
+        "throughput": 0.23809523809523808,
+        "sog": 0.9047619047619048,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.42213883677298314,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.457,
+    "agg_throughput": 0.128,
+    "agg_sog": 0.886,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-05",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.28863499699338546,
+        "throughput": 0.46875,
+        "sog": 0.53125,
+        "vessel_count": 32
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6707317073170732,
+        "throughput": 0.09090909090909091,
+        "sog": 0.5454545454545454,
+        "vessel_count": 22
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5132192846034215,
+        "throughput": 0.0,
+        "sog": 0.8636363636363636,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.47663551401869164,
+        "throughput": 0.0,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.487,
+    "agg_throughput": 0.14,
+    "agg_sog": 0.662,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-06",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.38414634146341464,
+        "throughput": 0.0,
+        "sog": 0.5952380952380952,
+        "vessel_count": 42
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.7228915662650601,
+        "throughput": 0.0,
+        "sog": 0.7083333333333334,
+        "vessel_count": 24
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4377880184331797,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.30956848030018763,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 11
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.464,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.76,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-07",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.47794117647058826,
+        "throughput": 0.23076923076923078,
+        "sog": 0.7307692307692307,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5666003976143141,
+        "throughput": 0.0,
+        "sog": 0.7894736842105263,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4391371340523883,
+        "throughput": 0.21052631578947367,
+        "sog": 0.7894736842105263,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.601145038167939,
+        "throughput": 0.09523809523809523,
+        "sog": 0.6190476190476191,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.521,
+    "agg_throughput": 0.134,
+    "agg_sog": 0.732,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-08",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5238970588235294,
+        "throughput": 0.0,
+        "sog": 0.7543859649122807,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6573705179282868,
+        "throughput": 0.13636363636363635,
+        "sog": 0.6818181818181818,
+        "vessel_count": 22
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4186046511627907,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6022944550669216,
+        "throughput": 0.09523809523809523,
+        "sog": 0.7619047619047619,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.551,
+    "agg_throughput": 0.058,
+    "agg_sog": 0.8,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-09",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5531653349723418,
+        "throughput": 0.05,
+        "sog": 0.7166666666666667,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6818181818181818,
+        "throughput": 0.043478260869565216,
+        "sog": 0.7391304347826086,
+        "vessel_count": 23
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.374414976599064,
+        "throughput": 0.0,
+        "sog": 0.875,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5703422053231939,
+        "throughput": 0.0,
+        "sog": 0.85,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.545,
+    "agg_throughput": 0.023,
+    "agg_sog": 0.795,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-10",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5541871921182266,
+        "throughput": 0.03333333333333333,
+        "sog": 0.7,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5859375,
+        "throughput": 0.0,
+        "sog": 0.9,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3532182103610675,
+        "throughput": 0.06666666666666667,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5113636363636364,
+        "throughput": 0.0,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.501,
+    "agg_throughput": 0.025,
+    "agg_sog": 0.811,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-11",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5290841584158416,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5523255813953488,
+        "throughput": 0.0,
+        "sog": 0.7894736842105263,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3548895899053628,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5418250950570341,
+        "throughput": 0.0,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.495,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.809,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-12",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5317164179104478,
+        "throughput": 0.05263157894736842,
+        "sog": 0.7192982456140351,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5449330783938815,
+        "throughput": 0.0,
+        "sog": 0.7894736842105263,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.40476190476190477,
+        "throughput": 0.0,
+        "sog": 0.8235294117647058,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5438931297709925,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.506,
+    "agg_throughput": 0.013,
+    "agg_sog": 0.767,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-13",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5127408328154133,
+        "throughput": 0.0,
+        "sog": 0.6,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4554079696394687,
+        "throughput": 0.0,
+        "sog": 0.6875,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.36115569823434995,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 15
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4588910133843212,
+        "throughput": 0.0625,
+        "sog": 0.75,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.447,
+    "agg_throughput": 0.016,
+    "agg_sog": 0.759,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-14",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4684572142410993,
+        "throughput": 0.02,
+        "sog": 0.7,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.45801526717557256,
+        "throughput": 0.0,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3915171288743883,
+        "throughput": 0.0625,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5780346820809248,
+        "throughput": 0.1,
+        "sog": 0.6,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.474,
+    "agg_throughput": 0.046,
+    "agg_sog": 0.731,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-15",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4714016341923319,
+        "throughput": 0.04,
+        "sog": 0.7,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.31488549618320616,
+        "throughput": 0.0,
+        "sog": 0.7272727272727273,
+        "vessel_count": 11
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.543657331136738,
+        "throughput": 0.09090909090909091,
+        "sog": 0.8636363636363636,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6034482758620691,
+        "throughput": 0.38095238095238093,
+        "sog": 0.6666666666666666,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.483,
+    "agg_throughput": 0.128,
+    "agg_sog": 0.739,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-16",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5123339658444023,
+        "throughput": 0.0,
+        "sog": 0.6481481481481481,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3764478764478765,
+        "throughput": 0.07692307692307693,
+        "sog": 0.6153846153846154,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4942339373970346,
+        "throughput": 0.1,
+        "sog": 1.0,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6609195402298851,
+        "throughput": 0.08695652173913043,
+        "sog": 0.6521739130434783,
+        "vessel_count": 23
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.511,
+    "agg_throughput": 0.066,
+    "agg_sog": 0.729,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-17",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5047619047619047,
+        "throughput": 0.1320754716981132,
+        "sog": 0.7169811320754716,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.410958904109589,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5970149253731343,
+        "throughput": 0.125,
+        "sog": 0.9166666666666666,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.540796963946869,
+        "throughput": 0.0,
+        "sog": 0.6842105263157895,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.513,
+    "agg_throughput": 0.118,
+    "agg_sog": 0.758,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-18",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5254777070063694,
+        "throughput": 0.0,
+        "sog": 0.7454545454545455,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.11764705882352941,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5702479338842975,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4588910133843212,
+        "throughput": 0.125,
+        "sog": 0.8125,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.514,
+    "agg_throughput": 0.061,
+    "agg_sog": 0.86,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-19",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.545280612244898,
+        "throughput": 0.0,
+        "sog": 0.6842105263157895,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5294117647058824,
+        "throughput": 0.05555555555555555,
+        "sog": 0.7222222222222222,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6208609271523179,
+        "throughput": 0.0,
+        "sog": 0.72,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.40229885057471265,
+        "throughput": 0.14285714285714285,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.524,
+    "agg_throughput": 0.05,
+    "agg_sog": 0.746,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-20",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5931122448979592,
+        "throughput": 0.0,
+        "sog": 0.6290322580645161,
+        "vessel_count": 62
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4678362573099415,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5445544554455446,
+        "throughput": 0.0,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4903846153846154,
+        "throughput": 0.0,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.524,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.749,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-21",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.523145212428662,
+        "throughput": 0.0,
+        "sog": 0.6181818181818182,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4150197628458498,
+        "throughput": 0.0,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.518092105263158,
+        "throughput": 0.047619047619047616,
+        "sog": 1.0,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.40462427745664736,
+        "throughput": 0.0,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.465,
+    "agg_throughput": 0.012,
+    "agg_sog": 0.815,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-22",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5012610340479193,
+        "throughput": 0.0,
+        "sog": 0.6981132075471698,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.38767395626242546,
+        "throughput": 0.0,
+        "sog": 0.6923076923076923,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5921052631578948,
+        "throughput": 0.041666666666666664,
+        "sog": 0.8333333333333334,
+        "vessel_count": 24
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4660194174757281,
+        "throughput": 0.0625,
+        "sog": 0.6875,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.487,
+    "agg_throughput": 0.026,
+    "agg_sog": 0.728,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-23",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5211623499684144,
+        "throughput": 0.01818181818181818,
+        "sog": 0.6909090909090909,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.2716297786720322,
+        "throughput": 0.1111111111111111,
+        "sog": 0.7777777777777778,
+        "vessel_count": 9
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5172413793103449,
+        "throughput": 0.0,
+        "sog": 0.9523809523809523,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4678362573099415,
+        "throughput": 0.0625,
+        "sog": 0.875,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.444,
+    "agg_throughput": 0.048,
+    "agg_sog": 0.824,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-24",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5404551201011378,
+        "throughput": 0.0,
+        "sog": 0.6140350877192983,
+        "vessel_count": 57
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.30487804878048785,
+        "throughput": 0.2,
+        "sog": 0.6,
+        "vessel_count": 10
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.41940789473684215,
+        "throughput": 0.0,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4377431906614786,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.426,
+    "agg_throughput": 0.05,
+    "agg_sog": 0.697,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-25",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4646017699115044,
+        "throughput": 0.04081632653061224,
+        "sog": 0.673469387755102,
+        "vessel_count": 49
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.39795918367346944,
+        "throughput": 0.15384615384615385,
+        "sog": 1.0,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6218905472636815,
+        "throughput": 0.4,
+        "sog": 0.88,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4093567251461988,
+        "throughput": 0.0,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.473,
+    "agg_throughput": 0.149,
+    "agg_sog": 0.835,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-26",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5218216318785579,
+        "throughput": 0.07272727272727272,
+        "sog": 0.6545454545454545,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.39795918367346944,
+        "throughput": 0.0,
+        "sog": 0.8461538461538461,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6208609271523179,
+        "throughput": 0.0,
+        "sog": 0.88,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.3515625,
+        "throughput": 0.08333333333333333,
+        "sog": 0.9166666666666666,
+        "vessel_count": 12
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.473,
+    "agg_throughput": 0.039,
+    "agg_sog": 0.824,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-27",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5123339658444023,
+        "throughput": 0.0,
+        "sog": 0.7222222222222222,
+        "vessel_count": 54
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3987730061349693,
+        "throughput": 0.23076923076923078,
+        "sog": 0.8461538461538461,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.543657331136738,
+        "throughput": 0.0,
+        "sog": 0.9090909090909091,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4183266932270916,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.468,
+    "agg_throughput": 0.111,
+    "agg_sog": 0.798,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-28",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5787476280834914,
+        "throughput": 0.06557377049180328,
+        "sog": 0.7049180327868853,
+        "vessel_count": 61
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3971486761710794,
+        "throughput": 0.0,
+        "sog": 0.8461538461538461,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.541871921182266,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4771371769383698,
+        "throughput": 0.0,
+        "sog": 0.625,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.499,
+    "agg_throughput": 0.016,
+    "agg_sog": 0.794,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-29",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5006297229219144,
+        "throughput": 0.0,
+        "sog": 0.8113207547169812,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.36885245901639346,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 12
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.44334975369458124,
+        "throughput": 0.05555555555555555,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.47619047619047616,
+        "throughput": 0.0,
+        "sog": 0.875,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.447,
+    "agg_throughput": 0.014,
+    "agg_sog": 0.831,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-30",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5685407454200885,
+        "throughput": 0.03333333333333333,
+        "sog": 0.6166666666666667,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.2806652806652806,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 9
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.42218543046357615,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5059523809523809,
+        "throughput": 0.11764705882352941,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.444,
+    "agg_throughput": 0.038,
+    "agg_sog": 0.718,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-03-31",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5962145110410094,
+        "throughput": 0.09523809523809523,
+        "sog": 0.6825396825396826,
+        "vessel_count": 63
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.3164556962025316,
+        "throughput": 0.1,
+        "sog": 0.7,
+        "vessel_count": 10
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4492512479201331,
+        "throughput": 0.16666666666666666,
+        "sog": 1.0,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5367793240556661,
+        "throughput": 0.0,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.475,
+    "agg_throughput": 0.09,
+    "agg_sog": 0.818,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-01",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5663939584644431,
+        "throughput": 0.0,
+        "sog": 0.7166666666666667,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.44776119402985076,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7142857142857143,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5759599332220368,
+        "throughput": 0.0,
+        "sog": 0.9130434782608695,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4743083003952569,
+        "throughput": 0.1875,
+        "sog": 0.625,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.516,
+    "agg_throughput": 0.1,
+    "agg_sog": 0.742,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-02",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5823418910457107,
+        "throughput": 0.04838709677419355,
+        "sog": 0.6774193548387096,
+        "vessel_count": 62
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4468085106382979,
+        "throughput": 0.14285714285714285,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.473421926910299,
+        "throughput": 0.05263157894736842,
+        "sog": 0.8947368421052632,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5325443786982249,
+        "throughput": 0.0,
+        "sog": 0.6111111111111112,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.509,
+    "agg_throughput": 0.061,
+    "agg_sog": 0.76,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-03",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5102040816326531,
+        "throughput": 0.0,
+        "sog": 0.7090909090909091,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.44871794871794873,
+        "throughput": 0.07142857142857142,
+        "sog": 0.9285714285714286,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.39933444259567386,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.412573673870334,
+        "throughput": 0.07142857142857142,
+        "sog": 0.8571428571428571,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.443,
+    "agg_throughput": 0.036,
+    "agg_sog": 0.874,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-04",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.45592705167173253,
+        "throughput": 0.0,
+        "sog": 0.7,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5543478260869565,
+        "throughput": 0.11764705882352941,
+        "sog": 0.8235294117647058,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3775167785234899,
+        "throughput": 0.0,
+        "sog": 0.8666666666666667,
+        "vessel_count": 15
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.3543307086614173,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 12
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.436,
+    "agg_throughput": 0.029,
+    "agg_sog": 0.806,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-05",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4600120264582081,
+        "throughput": 0.0,
+        "sog": 0.5882352941176471,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4285714285714286,
+        "throughput": 0.07692307692307693,
+        "sog": 0.7692307692307693,
+        "vessel_count": 13
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.43293718166383705,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.32803180914512925,
+        "throughput": 0.18181818181818182,
+        "sog": 0.7272727272727273,
+        "vessel_count": 11
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.412,
+    "agg_throughput": 0.065,
+    "agg_sog": 0.742,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-06",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4485645933014354,
+        "throughput": 0.1,
+        "sog": 0.68,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.47297297297297297,
+        "throughput": 0.07142857142857142,
+        "sog": 0.5,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5621805792163543,
+        "throughput": 0.36363636363636365,
+        "sog": 0.8181818181818182,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.35785288270377735,
+        "throughput": 0.0,
+        "sog": 0.6666666666666666,
+        "vessel_count": 12
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.46,
+    "agg_throughput": 0.134,
+    "agg_sog": 0.666,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-07",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4940119760479042,
+        "throughput": 0.09090909090909091,
+        "sog": 0.7454545454545455,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.4783599088838269,
+        "throughput": 0.0,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.45762711864406774,
+        "throughput": 0.0,
+        "sog": 1.0,
+        "vessel_count": 18
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5465587044534413,
+        "throughput": 0.3888888888888889,
+        "sog": 0.6666666666666666,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.494,
+    "agg_throughput": 0.12,
+    "agg_sog": 0.799,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-08",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5575539568345323,
+        "throughput": 0.016129032258064516,
+        "sog": 0.6129032258064516,
+        "vessel_count": 62
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5568445475638051,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5084745762711864,
+        "throughput": 0.1,
+        "sog": 0.85,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6415478615071283,
+        "throughput": 0.09523809523809523,
+        "sog": 0.7142857142857143,
+        "vessel_count": 21
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.566,
+    "agg_throughput": 0.053,
+    "agg_sog": 0.732,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-09",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4760479041916168,
+        "throughput": 0.03773584905660377,
+        "sog": 0.7358490566037735,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5660377358490566,
+        "throughput": 0.0,
+        "sog": 0.8125,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5303030303030303,
+        "throughput": 0.0,
+        "sog": 0.9047619047619048,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5182926829268293,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.523,
+    "agg_throughput": 0.009,
+    "agg_sog": 0.834,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-10",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4600120264582081,
+        "throughput": 0.0,
+        "sog": 0.7450980392156863,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5,
+        "throughput": 0.14285714285714285,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.475,
+        "throughput": 0.21052631578947367,
+        "sog": 0.9473684210526315,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.45824847250509165,
+        "throughput": 0.06666666666666667,
+        "sog": 0.6,
+        "vessel_count": 15
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.473,
+    "agg_throughput": 0.105,
+    "agg_sog": 0.77,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-11",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5250452625226313,
+        "throughput": 0.0,
+        "sog": 0.7241379310344828,
+        "vessel_count": 58
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6867469879518072,
+        "throughput": 0.10526315789473684,
+        "sog": 0.5789473684210527,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4718543046357616,
+        "throughput": 0.0,
+        "sog": 0.9473684210526315,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.4312114989733059,
+        "throughput": 0.21428571428571427,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.529,
+    "agg_throughput": 0.08,
+    "agg_sog": 0.759,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-12",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5337756332931243,
+        "throughput": 0.01694915254237288,
+        "sog": 0.7288135593220338,
+        "vessel_count": 59
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6867469879518072,
+        "throughput": 0.05263157894736842,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5198019801980198,
+        "throughput": 0.14285714285714285,
+        "sog": 0.8571428571428571,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5601659751037344,
+        "throughput": 0.0,
+        "sog": 0.7777777777777778,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.575,
+    "agg_throughput": 0.053,
+    "agg_sog": 0.775,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-13",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5415162454873647,
+        "throughput": 0.0,
+        "sog": 0.6333333333333333,
+        "vessel_count": 60
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.645933014354067,
+        "throughput": 0.1111111111111111,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5392156862745099,
+        "throughput": 0.0,
+        "sog": 0.8181818181818182,
+        "vessel_count": 22
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5578512396694215,
+        "throughput": 0.05555555555555555,
+        "sog": 0.6111111111111112,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.571,
+    "agg_throughput": 0.042,
+    "agg_sog": 0.724,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-14",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4754784688995215,
+        "throughput": 0.0,
+        "sog": 0.7169811320754716,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.7857142857142857,
+        "throughput": 0.0,
+        "sog": 0.6818181818181818,
+        "vessel_count": 22
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.48543689320388345,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.529045643153527,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.569,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.758,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-15",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4477611940298507,
+        "throughput": 0.0,
+        "sog": 0.8,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6612529002320185,
+        "throughput": 0.0,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.3896103896103896,
+        "throughput": 0.0,
+        "sog": 0.9375,
+        "vessel_count": 16
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5962343096234309,
+        "throughput": 0.05263157894736842,
+        "sog": 0.6842105263157895,
+        "vessel_count": 19
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.524,
+    "agg_throughput": 0.013,
+    "agg_sog": 0.816,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-16",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.46678635547576297,
+        "throughput": 0.019230769230769232,
+        "sog": 0.7307692307692307,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6864988558352403,
+        "throughput": 0.05,
+        "sog": 0.65,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5147058823529412,
+        "throughput": 0.14285714285714285,
+        "sog": 0.8095238095238095,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5063291139240506,
+        "throughput": 0.1875,
+        "sog": 0.9375,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.544,
+    "agg_throughput": 0.1,
+    "agg_sog": 0.782,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-17",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4311377245508982,
+        "throughput": 0.0,
+        "sog": 0.7083333333333334,
+        "vessel_count": 48
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5756207674943566,
+        "throughput": 0.17647058823529413,
+        "sog": 0.9411764705882353,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5665024630541872,
+        "throughput": 0.0,
+        "sog": 0.8260869565217391,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5414012738853503,
+        "throughput": 0.0,
+        "sog": 0.7058823529411765,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.529,
+    "agg_throughput": 0.044,
+    "agg_sog": 0.795,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-18",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4600120264582081,
+        "throughput": 0.0784313725490196,
+        "sog": 0.6666666666666666,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6433408577878104,
+        "throughput": 0.0,
+        "sog": 0.7368421052631579,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.49261083743842365,
+        "throughput": 0.0,
+        "sog": 0.9,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.44491525423728817,
+        "throughput": 0.0,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.51,
+    "agg_throughput": 0.02,
+    "agg_sog": 0.772,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-19",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.45262522631261315,
+        "throughput": 0.0,
+        "sog": 0.72,
+        "vessel_count": 50
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5743243243243243,
+        "throughput": 0.0,
+        "sog": 0.5294117647058824,
+        "vessel_count": 17
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.42218543046357615,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.3495762711864407,
+        "throughput": 0.36363636363636365,
+        "sog": 0.9090909090909091,
+        "vessel_count": 11
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.45,
+    "agg_throughput": 0.091,
+    "agg_sog": 0.76,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-20",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.48328267477203646,
+        "throughput": 0.07547169811320754,
+        "sog": 0.6792452830188679,
+        "vessel_count": 53
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6067415730337078,
+        "throughput": 0.05555555555555555,
+        "sog": 0.6666666666666666,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4257095158597663,
+        "throughput": 0.11764705882352941,
+        "sog": 0.9411764705882353,
+        "vessel_count": 17
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5793991416309013,
+        "throughput": 0.16666666666666666,
+        "sog": 0.7222222222222222,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.524,
+    "agg_throughput": 0.104,
+    "agg_sog": 0.752,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-21",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.465611685940353,
+        "throughput": 0.0,
+        "sog": 0.7647058823529411,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5345211581291759,
+        "throughput": 0.125,
+        "sog": 0.75,
+        "vessel_count": 16
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5042016806722689,
+        "throughput": 0.2,
+        "sog": 0.9,
+        "vessel_count": 20
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.574468085106383,
+        "throughput": 0.1111111111111111,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.52,
+    "agg_throughput": 0.109,
+    "agg_sog": 0.826,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-22",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4753199268738574,
+        "throughput": 0.019230769230769232,
+        "sog": 0.6538461538461539,
+        "vessel_count": 52
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6637168141592921,
+        "throughput": 0.2,
+        "sog": 0.85,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6345177664974619,
+        "throughput": 0.08,
+        "sog": 0.92,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.6355932203389831,
+        "throughput": 0.1,
+        "sog": 0.95,
+        "vessel_count": 20
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.602,
+    "agg_throughput": 0.1,
+    "agg_sog": 0.843,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-23",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5036630036630036,
+        "throughput": 0.0,
+        "sog": 0.6909090909090909,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6803455723542117,
+        "throughput": 0.0,
+        "sog": 0.8095238095238095,
+        "vessel_count": 21
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.6302521008403362,
+        "throughput": 0.0,
+        "sog": 0.88,
+        "vessel_count": 25
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5672268907563025,
+        "throughput": 0.0,
+        "sog": 0.8333333333333334,
+        "vessel_count": 18
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.595,
+    "agg_throughput": 0.0,
+    "agg_sog": 0.803,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-24",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.4676039119804401,
+        "throughput": 0.0,
+        "sog": 0.6862745098039216,
+        "vessel_count": 51
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5696202531645569,
+        "throughput": 0.16666666666666666,
+        "sog": 0.8888888888888888,
+        "vessel_count": 18
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.572139303482587,
+        "throughput": 0.043478260869565216,
+        "sog": 0.9130434782608695,
+        "vessel_count": 23
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5010438413361169,
+        "throughput": 0.1875,
+        "sog": 0.75,
+        "vessel_count": 16
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.528,
+    "agg_throughput": 0.099,
+    "agg_sog": 0.81,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-25",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5036630036630036,
+        "throughput": 0.07272727272727272,
+        "sog": 0.6363636363636364,
+        "vessel_count": 55
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5949895615866388,
+        "throughput": 0.0,
+        "sog": 0.6842105263157895,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.5241264559068219,
+        "throughput": 0.0,
+        "sog": 0.8571428571428571,
+        "vessel_count": 21
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.43659043659043656,
+        "throughput": 0.14285714285714285,
+        "sog": 0.7857142857142857,
+        "vessel_count": 14
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.515,
+    "agg_throughput": 0.054,
+    "agg_sog": 0.741,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-26",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5402930402930403,
+        "throughput": 0.1864406779661017,
+        "sog": 0.6610169491525424,
+        "vessel_count": 59
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.5876288659793814,
+        "throughput": 0.0,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.47738693467336685,
+        "throughput": 0.0,
+        "sog": 0.8421052631578947,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5279503105590062,
+        "throughput": 0.0,
+        "sog": 0.8823529411764706,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.533,
+    "agg_throughput": 0.047,
+    "agg_sog": 0.807,
+    "multi_port": 0.0
+  },
+  {
+    "date": "2024-04-27",
+    "port_scores": {
+      "houston": {
+        "dwell": 0.0,
+        "density": 0.5842970176506391,
+        "throughput": 0.0,
+        "sog": 0.671875,
+        "vessel_count": 64
+      },
+      "nynj": {
+        "dwell": 0.0,
+        "density": 0.6109979633401221,
+        "throughput": 0.0,
+        "sog": 0.75,
+        "vessel_count": 20
+      },
+      "la_longbeach": {
+        "dwell": 0.0,
+        "density": 0.4797979797979798,
+        "throughput": 0.05263157894736842,
+        "sog": 0.8947368421052632,
+        "vessel_count": 19
+      },
+      "corpus": {
+        "dwell": 0.0,
+        "density": 0.5246913580246914,
+        "throughput": 0.11764705882352941,
+        "sog": 0.7647058823529411,
+        "vessel_count": 17
+      }
+    },
+    "agg_dwell": 0.0,
+    "agg_density": 0.55,
+    "agg_throughput": 0.043,
+    "agg_sog": 0.77,
+    "multi_port": 0.0
+  }
+]
