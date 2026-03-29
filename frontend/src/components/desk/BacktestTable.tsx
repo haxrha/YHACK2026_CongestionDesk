@@ -101,7 +101,7 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
                 Mean edge
               </p>
               <p className="mt-1 text-xl font-semibold tabular-nums text-foreground">
-                {(summary.meanEdge * 100).toFixed(2)}
+                {Math.abs(summary.meanEdge * 100).toFixed(1)}
                 <span className="text-sm font-normal text-foreground-muted">
                   ¢
                 </span>
