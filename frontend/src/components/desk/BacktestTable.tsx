@@ -16,8 +16,7 @@ type SortKey =
   | "score"
   | "signal"
   | "price_today"
-  | "edge"
-  | "correct";
+  | "edge";
 
 export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
   const [sortKey, setSortKey] = useState<SortKey>("date");
@@ -31,9 +30,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
       const va = a[sortKey];
       const vb = b[sortKey];
       const mul = sortDir === "asc" ? 1 : -1;
-      if (typeof va === "boolean" && typeof vb === "boolean") {
-        return (Number(va) - Number(vb)) * mul;
-      }
       if (typeof va === "number" && typeof vb === "number") {
         return (va - vb) * mul;
       }
@@ -56,7 +52,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
     { key: "signal", label: "Signal" },
     { key: "price_today", label: "YES" },
     { key: "edge", label: "Edge" },
-    { key: "correct", label: "Hit" },
   ];
 
   return (
@@ -76,24 +71,13 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
         </p>
 
         {summary.sessions > 0 && (
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
             <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
               <p className="font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
                 Sessions
               </p>
               <p className="mt-1 text-xl font-semibold tabular-nums text-foreground">
                 {summary.sessions}
-              </p>
-            </div>
-            <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
-              <p className="font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
-                Hit rate
-              </p>
-              <p className="mt-1 text-xl font-semibold tabular-nums text-emerald-300">
-                {summary.accuracyPct.toFixed(1)}%
-              </p>
-              <p className="mt-0.5 font-mono text-[10px] text-foreground-subtle">
-                {summary.hits}/{summary.sessions}
               </p>
             </div>
             <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
@@ -128,14 +112,14 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
                 Overall
               </p>
               <p className="mt-1 text-sm leading-snug text-foreground-subtle">
-                Edge × correctness vs next-day YES (full CSV).
+                Edge vs next-day YES (full CSV).
               </p>
             </div>
           </div>
         )}
       </div>
       <div className="overflow-x-auto px-4 pb-6 pt-2 md:px-6">
-        <table className="w-full min-w-[520px] border-collapse text-left text-sm">
+        <table className="w-full min-w-[440px] border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-white/[0.06] text-xs font-medium uppercase tracking-wide text-foreground-muted">
               {headers.map((h) => (
@@ -191,17 +175,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
                     )}
                   >
                     {(r.edge * 100).toFixed(1)}¢
-                  </td>
-                  <td className="px-2 py-2 md:px-3">
-                    {r.correct ? (
-                      <span className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-0.5 text-xs text-emerald-300">
-                        Yes
-                      </span>
-                    ) : (
-                      <span className="rounded-full border border-red-500/30 bg-red-500/10 px-2 py-0.5 text-xs text-red-300">
-                        No
-                      </span>
-                    )}
                   </td>
                 </tr>
               );
