@@ -1,14 +1,15 @@
 /**
- * Macro → next-session YES price blend (demo).
- * Uses a signed probability margin (2p−1) per market, weighted, then scales to a
- * bounded move on the desk’s traded YES contract.
+ * Macro → next-session YES price blend.
+ * Weighted combination of market YES probabilities, scaled to a bounded move
+ * on the desk’s traded YES contract.
  */
 
 export type MacroMarketDef = {
   id: string;
   question: string;
   tokenId: string;
-  mockYes: number;
+  /** Default YES when CLOB midpoint is unavailable */
+  defaultYes: number;
   weight: number;
   direction: 1 | -1;
   hint?: string;
@@ -16,7 +17,7 @@ export type MacroMarketDef = {
 
 export type MacroMarketResolved = MacroMarketDef & {
   yesPrice: number;
-  source: "live" | "mock";
+  source: "live" | "estimated";
   signal: number;
   contribution: number;
 };
@@ -25,6 +26,13 @@ export type BlendConfig = {
   maxDeltaYes: number;
   description?: string;
 };
+
+function defaultYesFromDef(d: MacroMarketDef & Record<string, unknown>): number {
+  if (typeof d.defaultYes === "number" && !Number.isNaN(d.defaultYes)) {
+    return d.defaultYes;
+  }
+  return 0.5;
+}
 
 export function compositeScore(
   markets: Array<{
@@ -52,17 +60,18 @@ export function predictNextYesPrice(
 }
 
 export function resolveMarkets(
-  defs: MacroMarketDef[],
+  defs: Array<MacroMarketDef & Record<string, unknown>>,
   prices: Map<string, number | null>
 ): MacroMarketResolved[] {
   const out: MacroMarketResolved[] = [];
-  for (const d of defs) {
+  for (const raw of defs) {
+    const d = { ...raw, defaultYes: defaultYesFromDef(raw) };
     const live = d.tokenId ? prices.get(d.tokenId) : null;
     const yesPrice =
       live != null && !Number.isNaN(live)
         ? Math.min(1, Math.max(0, live))
-        : Math.min(1, Math.max(0, d.mockYes));
-    const source: "live" | "mock" = live != null ? "live" : "mock";
+        : Math.min(1, Math.max(0, d.defaultYes));
+    const source: "live" | "estimated" = live != null ? "live" : "estimated";
     const margin = 2 * yesPrice - 1;
     const contribution = d.weight * d.direction * margin;
     out.push({

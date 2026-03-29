@@ -1,13 +1,14 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { loadBacktestRows, type BacktestRow } from "@/lib/backtest";
 import { AmbientBackground } from "@/components/ui/AmbientBackground";
 import { PortMap, type TankerPort, type TankerVessel } from "./PortMap";
 import { SignalPriceChart } from "./SignalPriceChart";
 import { LiveSignalPanel } from "./LiveSignalPanel";
 import { BacktestTable } from "./BacktestTable";
-import { MockReturns2026 } from "./MockReturns2026";
+import { ReturnsOutlook2026 } from "./ReturnsOutlook2026";
 import { MacroOutlookDashboard } from "./MacroOutlookDashboard";
 import { MarketConditionsSummary } from "./MarketConditionsSummary";
 import { PortShippingInsight } from "./PortShippingInsight";
@@ -110,8 +111,8 @@ function Hero({ selectedDate, onDateChange, rows, selectedRow }: {
           </span>
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-foreground-muted md:text-lg md:leading-relaxed">
-          Real backtest CSV, live-feeling AIS map, and a mock ticket — built
-          with layered light, depth, and precision.
+          Backtest CSV, live AIS map, and Polymarket-facing panels — built with
+          layered light, depth, and precision.
         </p>
 
         <MarketConditionsSummary />
@@ -162,7 +163,12 @@ function Hero({ selectedDate, onDateChange, rows, selectedRow }: {
 
 type DeskTab = "overview" | "returns2026";
 
-export function Desk() {
+type DeskProps = {
+  /** Shown in header when Auth0 session exists */
+  userEmail?: string;
+};
+
+export function Desk({ userEmail }: DeskProps) {
   const [deskTab, setDeskTab] = useState<DeskTab>("overview");
   const [rows, setRows] = useState<BacktestRow[]>([]);
   const [selectedDate, setSelectedDate] = useState("");
@@ -284,6 +290,25 @@ export function Desk() {
     <div className="relative min-h-screen">
       <AmbientBackground />
       <div className="relative z-10">
+        {userEmail && (
+          <div className="flex flex-wrap items-center justify-end gap-4 border-b border-white/[0.06] px-6 py-3 md:px-12 lg:px-16">
+            <span className="max-w-[60%] truncate font-mono text-xs text-foreground-muted">
+              {userEmail}
+            </span>
+            <Link
+              href="/emissions"
+              className="rounded-lg border border-accent/30 bg-accent/10 px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-accent-bright transition-colors hover:bg-accent/20"
+            >
+              CO₂ view
+            </Link>
+            <a
+              href="/api/dev-logout"
+              className="rounded-lg border border-white/10 bg-white/[0.04] px-3 py-1.5 font-mono text-xs uppercase tracking-wide text-foreground-subtle transition-colors hover:bg-white/[0.08] hover:text-foreground"
+            >
+              Sign out
+            </a>
+          </div>
+        )}
         <Hero
           selectedDate={selectedDate}
           onDateChange={setSelectedDate}
@@ -358,11 +383,12 @@ export function Desk() {
                 actualNextYes={selectedRow.price_tomorrow}
                 sessionDate={selectedRow.date}
               />
-              <MockReturns2026 />
+              <ReturnsOutlook2026 />
               <p className="text-center font-mono text-xs text-foreground-subtle">
-                Return figures are illustrative; macro table uses mock YES prices until
-                you add Polymarket <code className="text-foreground-muted">tokenId</code>
-                s in <code className="text-foreground-muted">macro_markets.json</code>.
+                Macro YES prices use live CLOB midpoints when{" "}
+                <code className="text-foreground-muted">tokenId</code> is set in{" "}
+                <code className="text-foreground-muted">macro_markets.json</code>
+                ; otherwise defaults from that file apply.
               </p>
             </div>
           )}

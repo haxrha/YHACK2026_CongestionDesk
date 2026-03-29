@@ -17,7 +17,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Congestion desk · AIS × Polymarket",
   description:
-    "AIS port traffic, Polymarket backtest transparency, mock execution.",
+    "AIS port traffic, Polymarket backtest transparency, and execution panels.",
 };
 
 export default function RootLayout({

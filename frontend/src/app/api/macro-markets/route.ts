@@ -55,7 +55,7 @@ async function fetchMidpoints(
       }
     }
   } catch {
-    /* use mock */
+    /* midpoint fetch failed; fall back to defaults in config */
   }
   return map;
 }

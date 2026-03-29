@@ -8,7 +8,7 @@ type ApiMarket = {
   id: string;
   question: string;
   yesPrice: number;
-  source: "live" | "mock";
+  source: "live" | "estimated";
   weight: number;
   direction: 1 | -1;
   signal: number;
@@ -84,11 +84,10 @@ export function MacroOutlookDashboard({
             Next-session YES (Polymarket proxy)
           </h3>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-foreground-muted">
-            Combines implied probabilities from energy, geopolitics, inflation, and
-            AIS-linked Hormuz traffic into one score, then maps it to a bounded move
-            on your desk contract. Coefficients are labeled as a{" "}
-            <span className="text-foreground-subtle">2018-calibrated</span> demo blend
-            — replace with your trained weights for production.
+            Pulls together energy, geopolitics, inflation, and Hormuz-linked AIS
+            signals into one outlook, then applies it as a bounded move on the
+            desk contract. Weights follow a 2018-style tanker–macro profile you
+            can retune.
           </p>
         </div>
         {data && (
@@ -116,7 +115,7 @@ export function MacroOutlookDashboard({
                 {sessionDate}
               </p>
               <p className="mt-4 font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
-                Model id
+                Profile
               </p>
               <p className="mt-1 font-mono text-xs text-accent-bright">{data.modelId}</p>
             </div>
@@ -139,13 +138,9 @@ export function MacroOutlookDashboard({
                 </span>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-foreground-muted">
-                From composite <span className="font-mono text-foreground-subtle">{data.composite.toFixed(3)}</span>
-                {" × "}
-                max Δ{" "}
-                <span className="font-mono text-foreground-subtle">
-                  {(data.blend.maxDeltaYes * 100).toFixed(0)}¢
-                </span>
-                , anchored to desk YES <span className="font-mono text-foreground-subtle">{(data.baseYes * 100).toFixed(1)}¢</span>.
+                Moves at most {(data.blend.maxDeltaYes * 100).toFixed(0)}¢ from
+                today&apos;s {(data.baseYes * 100).toFixed(1)}¢ according to the
+                blended outlook.
               </p>
               <div className="mt-4 border-t border-white/[0.08] pt-4">
                 <p className="font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
@@ -155,7 +150,7 @@ export function MacroOutlookDashboard({
                   {(actualNextYes * 100).toFixed(1)}¢
                 </p>
                 <p className="mt-1 text-xs text-foreground-subtle">
-                  Compare model output to realized next session — not used in the blend.
+                  What actually happened next session — shown for comparison only.
                 </p>
               </div>
             </div>
@@ -167,9 +162,9 @@ export function MacroOutlookDashboard({
                 <tr className="border-b border-white/[0.08] font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
                   <th className="pb-3 pr-4 font-medium">Market</th>
                   <th className="pb-3 pr-4 font-medium">YES</th>
-                  <th className="pb-3 pr-4 font-medium">w</th>
-                  <th className="pb-3 pr-4 font-medium">s</th>
-                  <th className="pb-3 font-medium">Contrib.</th>
+                  <th className="pb-3 pr-4 font-medium">Weight</th>
+                  <th className="pb-3 pr-4 font-medium">Dir</th>
+                  <th className="pb-3 font-medium">Impact</th>
                 </tr>
               </thead>
               <tbody>
@@ -184,7 +179,9 @@ export function MacroOutlookDashboard({
                         <p className="mt-1 text-xs text-foreground-subtle">{m.hint}</p>
                       )}
                       <p className="mt-1 font-mono text-[10px] text-foreground-muted">
-                        {m.source === "live" ? "CLOB midpoint" : "mock (set tokenId for live)"}
+                        {m.source === "live"
+                          ? "Live CLOB midpoint"
+                          : "Default price (add tokenId for live)"}
                       </p>
                     </td>
                     <td className="py-3 pr-4 font-mono tabular-nums">
@@ -224,9 +221,11 @@ export function MacroOutlookDashboard({
             </table>
           </div>
 
-          <p className="mt-6 font-mono text-xs leading-relaxed text-foreground-subtle">
-            {data.blend.description}
-          </p>
+          {data.blend.description && (
+            <p className="mt-6 text-sm leading-relaxed text-foreground-subtle">
+              {data.blend.description}
+            </p>
+          )}
         </>
       )}
     </SpotlightCard>

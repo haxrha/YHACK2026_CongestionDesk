@@ -49,3 +49,41 @@ export async function loadBacktestRows(): Promise<BacktestRow[]> {
   if (!res.ok) throw new Error("Could not load backtest_results.csv");
   return parseBacktestCsv(await res.text());
 }
+
+export type BacktestSummary = {
+  sessions: number;
+  hits: number;
+  accuracyPct: number;
+  /** Mean of `edge` column (same units as CSV). */
+  meanEdge: number;
+  meanScore: number;
+  bullishDays: number;
+};
+
+export function summarizeBacktest(rows: BacktestRow[]): BacktestSummary {
+  const sessions = rows.length;
+  if (sessions === 0) {
+    return {
+      sessions: 0,
+      hits: 0,
+      accuracyPct: 0,
+      meanEdge: 0,
+      meanScore: 0,
+      bullishDays: 0,
+    };
+  }
+  const hits = rows.filter((r) => r.correct).length;
+  const sumEdge = rows.reduce((s, r) => s + r.edge, 0);
+  const sumScore = rows.reduce((s, r) => s + r.score, 0);
+  const bullishDays = rows.filter(
+    (r) => r.signal.trim().toUpperCase() === "BULLISH"
+  ).length;
+  return {
+    sessions,
+    hits,
+    accuracyPct: (100 * hits) / sessions,
+    meanEdge: sumEdge / sessions,
+    meanScore: sumScore / sessions,
+    bullishDays,
+  };
+}
