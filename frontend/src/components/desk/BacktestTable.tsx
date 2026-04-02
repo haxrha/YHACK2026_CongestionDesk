@@ -13,7 +13,6 @@ type Props = {
 
 type SortKey =
   | "date"
-  | "score"
   | "signal"
   | "price_today"
   | "edge";
@@ -48,7 +47,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
 
   const headers: { key: SortKey; label: string }[] = [
     { key: "date", label: "Date" },
-    { key: "score", label: "Score" },
     { key: "signal", label: "Signal" },
     { key: "price_today", label: "YES" },
     { key: "edge", label: "Edge" },
@@ -71,7 +69,7 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
         </p>
 
         {summary.sessions > 0 && (
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
               <p className="font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
                 Sessions
@@ -89,14 +87,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
                 <span className="text-sm font-normal text-foreground-muted">
                   ¢
                 </span>
-              </p>
-            </div>
-            <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
-              <p className="font-mono text-[10px] uppercase tracking-wide text-foreground-muted">
-                Mean score
-              </p>
-              <p className="mt-1 text-xl font-semibold tabular-nums text-foreground">
-                {summary.meanScore.toFixed(3)}
               </p>
             </div>
             <div className="rounded-xl border border-white/[0.06] bg-background-elevated/50 px-4 py-3">
@@ -156,9 +146,6 @@ export function BacktestTable({ rows, selectedDate, onSelectDate }: Props) {
                 >
                   <td className="whitespace-nowrap px-2 py-2 font-mono text-xs text-foreground md:px-3">
                     {r.date}
-                  </td>
-                  <td className="px-2 py-2 font-mono text-xs tabular-nums text-foreground-muted md:px-3">
-                    {r.score.toFixed(3)}
                   </td>
                   <td className="px-2 py-2 text-xs text-foreground md:px-3">
                     {r.signal}
