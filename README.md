@@ -3,6 +3,7 @@
 AIS × Polymarket: a **Next.js** dashboard that combines historical backtests, live tanker congestion, Polymarket-facing signals, macro outlook, and a **CO₂** view tied to port activity.
 
 ---
+https://www.youtube.com/watch?v=dp61DHE-SgM
 
 ## How to run the app
 
